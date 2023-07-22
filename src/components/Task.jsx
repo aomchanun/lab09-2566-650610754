@@ -11,7 +11,6 @@ export const Task = ({
 
   const doneBtnOnClick = () => {
     toggleDoneTaskFunc(id);
-    completed = !completed;
   };
 
   const resultClassName = completed ? "text-decoration-line-through" : "";
